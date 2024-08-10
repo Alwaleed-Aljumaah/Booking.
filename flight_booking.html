@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title> Flight Booking </title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1> Pick Your Flight </h1>
+
+        <form action="/submit_booking" method="POST">
+
+            <div class="personalInformation">
+
+            <fieldset>
+                <legend> Personal Information </legend> 
+
+                <label> Full Name </label>
+                <input type="text" required> <br>
+
+                <label> Email </label>
+                <input type="email" required><br>
+
+                <label> Phone Number </label>
+                <input type="tel" required><br>
+
+                <label> Passport Number </label>
+                <input type="text" required><br>
+            </fieldset>
+
+            </div>
+
+            <fieldset> 
+
+                <Legend> Flight Number </Legend>
+                <label> <b> Departure City </b> </label>
+                <select required> 
+
+                    <option> Ottawa </option>
+                    <option> Montreal </option>
+                    <option> Toronto </option>
+                    <option> Calgary </option>
+                    <option> Vancouver </option> 
+
+                </select><br> 
+
+                <label> Departure Date</label>
+                <input type="date" required><br>
+
+                <label> Departure Date</label>
+                <input type="date" required><br>
+
+                <label> Class: </label>
+                <input type="radio" name="class" required>
+                <label> Economy </label>
+                <input type="radio" name="class" required>
+                <label> Business </label>
+                <input type="radio" name="class" required>
+                <label> First Class </label><br>
+
+                <label> Number of Passengers: </label>
+                <input type="number" min="1" required><br>
+
+            </fieldset>
+
+            <fieldset> 
+
+                <legend> Meal options </legend>
+                <input type="checkbox" required>
+                <label> Vegetarian </label>
+                <input type="checkbox" required>
+                <label> Non-vegetarian </label>
+                <input type="checkbox" required>
+                <label> Vegan </label><br>
+
+                <input type="checkbox" required>
+                <label> Travel Insurance </label>
+
+            </fieldset>
+
+            <input type="submit" value="Book Now">
+
+        </form> 
+        <div class="canadaCities">
+
+            <img src="C:\Users\aalju008\Downloads\Ottawa.jpg">
+            <img src="C:\Users\aalju008\Downloads\montreal.webp">
+            <img src="C:\Users\aalju008\Downloads\Toronto.webp">
+            <img src="C:\Users\aalju008\Downloads\calgary.jpg">
+            <img src="C:\Users\aalju008\Downloads\Vancouver.jpg">
+            
+        </div>
+
+    </div>
+
+</body>
+</html>

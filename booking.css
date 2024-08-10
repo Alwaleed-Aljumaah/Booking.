@@ -1,0 +1,43 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: skyblue;
+    margin:2px;
+    padding: 2px;
+    text-align: left;
+    color: black;
+}
+
+.container{
+    background-color:white;
+    padding: 22px;
+    max-width: 2500px;
+    border-radius: 100px;
+}
+
+input {
+    color:rgb(0, 0, 0);
+    text-align: left;
+    padding:3px;  
+}
+.canadaCities {
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.canadaCities img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.5);
+    transition: all ease-in-out 0.5s;
+}
+
+.canadaCities img:hover {
+    width: 25%;
+}
+
